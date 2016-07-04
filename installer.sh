@@ -67,7 +67,7 @@ if [ -d "/etc/sentora/panel/etc/styles/$THEME_NAME" ]; then
 	echo "You have the $THEME_NAME theme already installed, theme will be updated."
 else
 	THEME_UPDATE=0
-	echo "You have not jet installed the $THEME_NAME theme, theme will be installed."
+	echo "You have not yet installed the $THEME_NAME theme, theme will be installed."
 fi
 
 cd /etc/sentora/panel/etc/styles/
